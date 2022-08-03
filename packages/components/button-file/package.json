@@ -1,0 +1,26 @@
+{
+  "name": "button-file",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "module": "dist/buttonFile.es.js",
+  "scripts": {
+    "build": "tsc && vite build",
+    "esbuild": "esbuild src/index.tsx --bundle --sourcemap --format=esm --external:react --target=esnext --outfile=dist2/buttonFile.es.js",
+    "watch": "vite build --watch"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "vite-plugin-dts": "^1.4.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

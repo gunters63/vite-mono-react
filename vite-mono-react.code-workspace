@@ -5,6 +5,9 @@
         },
         {
             "path": "apps\\myapp"
+        },
+        {
+            "path": "packages\\components\\button-file"
         }
     ]
 }
