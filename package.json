@@ -9,7 +9,6 @@
     "preview": "pnpm -F myapp preview"
   },
   "devDependencies": {
-    "esbuild": "^0.14.53",
     "rimraf": "^3.0.2",
     "typescript": "^4.6.4",
     "vite": "^3.0.0"

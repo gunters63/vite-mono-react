@@ -4,19 +4,13 @@ import react from "@vitejs/plugin-react";
 import dts from "vite-plugin-dts";
 
 export default defineConfig({
-  plugins: [
-    react(),
-    dts({
-      insertTypesEntry: true,
-    }),
-  ],
+  plugins: [react(), dts({ insertTypesEntry: true })],
   build: {
     minify: false,
     lib: {
-      formats: ['es'],
+      formats: ["es"],
       entry: resolve(__dirname, "src", "index.tsx"),
-      fileName: (ext) => `buttonFile.${ext}.js`,
-      name: "buttonFile", // the name must be set for UMD modules
+      fileName: (ext) => `buttonFile.${ext}.js`
     },
     rollupOptions: {
       external: ["react", "react-dom", "react/jsx-runtime"],
