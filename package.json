@@ -1,0 +1,10 @@
+{
+  "name": "vite-mono-react",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "pnpm -F myapp dev",
+    "build": "pnpm -F myapp",
+    "preview": "pnpm -F myapp preview"
+  }
+}
