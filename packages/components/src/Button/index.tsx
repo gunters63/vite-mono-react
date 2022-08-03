@@ -29,4 +29,4 @@ const styles = {
   }
 } as const;
 
-export default Button;
+export { Button };

@@ -4,12 +4,10 @@ importers:
 
   .:
     specifiers:
-      esbuild: ^0.14.53
       rimraf: ^3.0.2
       typescript: ^4.6.4
       vite: ^3.0.0
     devDependencies:
-      esbuild: 0.14.53
       rimraf: 3.0.2
       typescript: 4.7.4
       vite: 3.0.4
@@ -19,11 +17,11 @@ importers:
       '@types/react': ^18.0.15
       '@types/react-dom': ^18.0.6
       '@vitejs/plugin-react': ^2.0.0
-      button-file: workspace:*
+      components: workspace:*
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      button-file: link:../../packages/components/button-file
+      components: link:../../packages/components
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
@@ -31,7 +29,7 @@ importers:
       '@types/react-dom': 18.0.6
       '@vitejs/plugin-react': 2.0.0
 
-  packages/components/button-file:
+  packages/components:
     specifiers:
       '@types/react': ^18.0.15
       '@types/react-dom': ^18.0.6
@@ -580,7 +578,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001373
-      electron-to-chromium: 1.4.209
+      electron-to-chromium: 1.4.210
       node-releases: 2.0.6
       update-browserslist-db: 1.0.5_browserslist@4.21.3
     dev: true
@@ -668,8 +666,8 @@ packages:
       ms: 2.1.2
     dev: true
 
-  /electron-to-chromium/1.4.209:
-    resolution: {integrity: sha512-SfWI9G/e3rxGIUalHbUCH9yEsTpO+72y+cD1Sw0tYtuTrdOPaFAgZKXM1crWVJwTNmj6KIPbbx0NIoV8a2cFJw==}
+  /electron-to-chromium/1.4.210:
+    resolution: {integrity: sha512-kSiX4tuyZijV7Cz0MWVmGT8K2siqaOA4Z66K5dCttPPRh0HicOcOAEj1KlC8O8J1aOS/1M8rGofOzksLKaHWcQ==}
     dev: true
 
   /esbuild-android-64/0.14.53:

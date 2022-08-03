@@ -10,7 +10,7 @@ export default defineConfig({
     lib: {
       formats: ["es"],
       entry: resolve(__dirname, "src", "index.tsx"),
-      fileName: (ext) => `buttonFile.${ext}.js`
+      fileName: (ext) => `index.${ext}.js`
     },
     rollupOptions: {
       external: ["react", "react-dom", "react/jsx-runtime"],

@@ -1,13 +1,12 @@
 {
-  "name": "button-file",
+  "name": "components",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "type": "module",
-  "module": "dist/buttonFile.es.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "build": "tsc && vite build",
-    "esbuild": "esbuild src/index.tsx --bundle --sourcemap --format=esm --external:react --target=esnext --outfile=dist2/buttonFile.es.js",
     "build:script": "node build.js",
     "watch": "vite build --watch"
   },
